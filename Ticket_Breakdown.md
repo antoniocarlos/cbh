@@ -16,3 +16,19 @@ Based on the information given, break this ticket down into 2-5 individual ticke
 You will be graded on the level of detail in each ticket, the clarity of the execution plan within and between tickets, and the intelligibility of your language. You don't need to be a native English speaker, but please proof-read your work.
 
 ## Your Breakdown Here
+
+### Ticket 1: Add custom Agent ID field to Facilities table
+Description: Add a new field to the Facilities table in the database for storing custom Agent IDs.
+
+Acceptance Criteria:
+
+Facilities table has a new column for custom Agent IDs
+Existing data is not affected
+New Facilities can store custom Agent IDs for each Agent they work with
+Time/Effort Estimate: 2 hours
+
+Implementation Details:
+
+Update the database schema to include a new column in the Facilities table for custom Agent IDs
+Run a migration to update the existing database structure
+Update any related models to include the new field
