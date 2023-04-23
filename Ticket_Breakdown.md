@@ -63,3 +63,20 @@ Implementation Details:
 Update the generateReport function to accept the custom Agent ID or the internal database ID as a parameter
 Modify the report generation logic to use the custom Agent ID when available, otherwise use the internal database ID
 Update any related unit tests to verify that the custom Agent IDs are being used correctly
+
+## Ticket 4: Add user interface for Facilities to manage custom Agent IDs
+
+Description: Create a user interface for Facilities to add, edit, or delete custom Agent IDs for the Agents they work with.
+
+Acceptance Criteria:
+
+Facilities can add custom Agent IDs for new Agents
+Facilities can edit or delete custom Agent IDs for existing Agents
+Changes to custom Agent IDs are saved in the database
+Time/Effort Estimate: 6 hours
+
+Implementation Details:
+
+Design and implement a user interface for managing custom Agent IDs
+Add appropriate validation and error handling
+Connect the interface with the backend to save custom Agent IDs to the Facilities table in the database
