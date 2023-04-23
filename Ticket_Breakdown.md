@@ -32,3 +32,18 @@ Implementation Details:
 Update the database schema to include a new column in the Facilities table for custom Agent IDs
 Run a migration to update the existing database structure
 Update any related models to include the new field
+
+## Ticket 2: Update the getShiftsByFacility function to retrieve custom Agent IDs
+
+Description: Modify the getShiftsByFacility function to return the custom Agent ID for each Agent, if available, along with the existing metadata.
+
+Acceptance Criteria:
+
+The getShiftsByFacility function returns custom Agent IDs for each Agent
+If no custom Agent ID is available, the internal database ID is returned
+Time/Effort Estimate: 3 hours
+
+Implementation Details:
+
+Modify the getShiftsByFacility function to retrieve the custom Agent IDs from the Facilities table
+Update the returned data structure to include the custom Agent ID or the internal database ID, as applicable
