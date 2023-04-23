@@ -66,7 +66,7 @@ Update any related unit tests to verify that the custom Agent IDs are being used
 
 ## Ticket 4: Add user interface for Facilities to manage custom Agent IDs
 
-Description: Create a user interface for Facilities to add, edit, or delete custom Agent IDs for the Agents they work with.
+Description: Create or update the user interface for Facilities to add, edit, or delete custom Agent IDs for the Agents they work with.
 
 Acceptance Criteria:
 
