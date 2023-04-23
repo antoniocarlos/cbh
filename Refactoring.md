@@ -9,3 +9,6 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+In the refactored version, I divided the original function into smaller, more focused functions, which makes the code easier to understand and maintain. 
+By assigning clear names to these helper functions (e.g., hashData, getPartitionKeyCandidate, ensureString, and truncateOrHash), I aimed to make their purpose self-explanatory, improving the overall readability of the code. 
+Furthermore, I replaced the older CommonJS require with the more modern ES6 module import syntax for better compatibility and consistency with the latest JavaScript features. By separating concerns and using meaningful function names, the refactored version provides a more readable and clean code structure that is easier to comprehend and debug.
