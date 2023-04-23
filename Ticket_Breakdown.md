@@ -80,3 +80,18 @@ Implementation Details:
 Design and implement a user interface for managing custom Agent IDs
 Add appropriate validation and error handling
 Connect the interface with the backend to save custom Agent IDs to the Facilities table in the database
+
+## Ticket 5: Update documentation and provide training materials
+
+Description: Update the documentation to include the new custom Agent ID feature and create training materials for the client Facilities to learn how to use it.
+
+Acceptance Criteria:
+
+Updated documentation reflects the new custom Agent ID feature
+Training materials are created to guide client Facilities in using the custom Agent ID feature
+Time/Effort Estimate: 4 hours
+
+Implementation Details:
+
+Update the user manual and API documentation to include the new custom Agent ID feature
+Create training materials such as video tutorials, guides, or FAQs to help client Facilities learn how to use the custom Agent ID feature
