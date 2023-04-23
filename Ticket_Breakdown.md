@@ -47,3 +47,19 @@ Implementation Details:
 
 Modify the getShiftsByFacility function to retrieve the custom Agent IDs from the Facilities table
 Update the returned data structure to include the custom Agent ID or the internal database ID, as applicable
+
+## Ticket 3: Update the generateReport function to use custom Agent IDs
+
+Description: Modify the generateReport function to use the custom Agent IDs instead of the internal database IDs in the generated report.
+
+Acceptance Criteria:
+
+The generated report displays custom Agent IDs when available
+If no custom Agent ID is available, the internal database ID is used
+Time/Effort Estimate: 4 hours
+
+Implementation Details:
+
+Update the generateReport function to accept the custom Agent ID or the internal database ID as a parameter
+Modify the report generation logic to use the custom Agent ID when available, otherwise use the internal database ID
+Update any related unit tests to verify that the custom Agent IDs are being used correctly
