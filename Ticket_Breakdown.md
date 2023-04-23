@@ -33,7 +33,7 @@ Update the database schema to include a new column in the Facilities table for c
 Run a migration to update the existing database structure
 Update any related models to include the new field
 
-## Ticket 2: Update the getShiftsByFacility function to retrieve custom Agent IDs
+### Ticket 2: Update the getShiftsByFacility function to retrieve custom Agent IDs
 
 Description: Modify the getShiftsByFacility function to return the custom Agent ID for each Agent, if available, along with the existing metadata.
 
@@ -48,7 +48,7 @@ Implementation Details:
 Modify the getShiftsByFacility function to retrieve the custom Agent IDs from the Facilities table
 Update the returned data structure to include the custom Agent ID or the internal database ID, as applicable
 
-## Ticket 3: Update the generateReport function to use custom Agent IDs
+### Ticket 3: Update the generateReport function to use custom Agent IDs
 
 Description: Modify the generateReport function to use the custom Agent IDs instead of the internal database IDs in the generated report.
 
@@ -64,7 +64,7 @@ Update the generateReport function to accept the custom Agent ID or the internal
 Modify the report generation logic to use the custom Agent ID when available, otherwise use the internal database ID
 Update any related unit tests to verify that the custom Agent IDs are being used correctly
 
-## Ticket 4: Add user interface for Facilities to manage custom Agent IDs
+### Ticket 4: Add user interface for Facilities to manage custom Agent IDs
 
 Description: Create or update the user interface for Facilities to add, edit, or delete custom Agent IDs for the Agents they work with.
 
@@ -81,7 +81,7 @@ Design and implement a user interface for managing custom Agent IDs
 Add appropriate validation and error handling
 Connect the interface with the backend to save custom Agent IDs to the Facilities table in the database
 
-## Ticket 5: Update documentation and provide training materials
+### Ticket 5: Update documentation and provide training materials
 
 Description: Update the documentation to include the new custom Agent ID feature and create training materials for the client Facilities to learn how to use it.
 
