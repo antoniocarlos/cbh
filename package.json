@@ -2,7 +2,8 @@
   "name": "cbh-take-home-project",
   "version": "1.0.0",
   "description": "",
-  "main": " ",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "start": "node index.js"
